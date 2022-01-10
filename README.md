@@ -648,4 +648,4 @@ Cliquer sur ce lien pour accéder à [SwaggerUi](http://localhost:8080/swagger-u
 Cliquer sur ce lien pour accéder à [H2Console](http://localhost:8080/h2-console/)
 
 ![screenShot](src/main/resources/images/console-h2-1.PNG)
-![screenShot](src/main/resources/images/console-h2-2.PNG)
+![screenShot](src/main/resources/images/console-h2-2.png)
