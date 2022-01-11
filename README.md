@@ -591,7 +591,7 @@ public class SongResource {
 
 
     @GetMapping
-    public BatchStatus load() throws JobParametersInvalidException, JobExecutionAlreadyRunningException, JobRestartException, JobInstanceAlreadyCompleteException {
+    public BatchStatus loadBatch() throws JobParametersInvalidException, JobExecutionAlreadyRunningException, JobRestartException, JobInstanceAlreadyCompleteException {
         log.info("Batch demarré à la demande");
         return batchLauncher.run();
     }
